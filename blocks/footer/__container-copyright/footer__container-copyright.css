@@ -1,0 +1,14 @@
+.footer__container-copyright {
+  border-top: 2px solid var(--grayscale-02);
+  margin: 10px 16px;
+}
+
+
+@media screen and (min-width: 1024px) {
+  .footer__container-copyright {
+    margin: 25px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

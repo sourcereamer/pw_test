@@ -1,0 +1,14 @@
+.popup__cookies {
+  left: 5.2%;
+  bottom: 2.3%;
+  width: 90vw;
+}
+
+@media screen and (min-width: 1024px) {
+  .popup__cookies {
+    left: 6.2%;
+    width: 89.5vw;
+    bottom: 0;
+    margin: 0 0px 30px;
+  }
+}

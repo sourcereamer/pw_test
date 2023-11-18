@@ -1,0 +1,18 @@
+.business__headline {
+  display: flex;
+  flex-direction: column;
+  margin: 40px 16px 0;
+  border-radius: 60px;
+  border: 1px solid var(--grayscale-04);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 91.5%;
+}
+
+@media screen and (min-width: 1024px) {
+  .business__headline {
+    width: 91.5%;
+    margin: 102px 60px;
+  }
+}

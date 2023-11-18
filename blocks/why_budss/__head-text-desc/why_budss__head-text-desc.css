@@ -1,0 +1,22 @@
+.why_budss__head-text-desc {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.2;
+  background-image: url(/image/about-background-image.png);
+  background-repeat: no-repeat;
+  background-size: 70.5%;
+  background-position: 96% bottom;
+  padding-bottom: 5px;
+  margin-left: 12px;
+  width: 352px;
+}
+
+@media screen and (min-width: 1024px) {
+  .why_budss__head-text-desc {
+    width: 100%;
+    margin-left: 0;
+    font-size: 36px;
+    background-size: 58%;
+    background-position: center bottom 1px;
+  }
+}

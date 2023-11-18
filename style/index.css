@@ -1,0 +1,19 @@
+@import url(reset.css);
+@import url(fonts.css);
+@import url(../blocks/about/about.css);
+@import url(../blocks/advantages/advantages.css);
+@import url(../blocks/business/business.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/hero/hero.css);
+@import url(../blocks/how-works/how-works.css);
+@import url(../blocks/main-content/_shadowed/main-content_shadowed.css);
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/root/root.css);
+@import url(../blocks/why_budss/why_budss.css);
+
+/* Modifiers */
+@import url(../blocks/popup/_active/popup_active.css);
+@import url(../blocks/hero/_fixed/hero_fixed.css);
+@import url(../blocks/root/_scroll-disable/root_scroll-disable.css);
+@import url(../blocks/popup/__cookies/_active/popup_cookies_active.css);

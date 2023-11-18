@@ -1,0 +1,8 @@
+.popup__contacts-container-required {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--additional-02);
+  margin-top: 5px;
+  display: none;
+}

@@ -1,0 +1,15 @@
+.how-works__text_left {
+    animation: move-left 12s linear infinite;
+    white-space: nowrap;
+    overflow: hidden;
+    will-change: transform;
+}
+
+@keyframes move-left {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-205%);
+    }
+}

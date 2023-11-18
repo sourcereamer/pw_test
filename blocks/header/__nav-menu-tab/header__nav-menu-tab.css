@@ -1,0 +1,6 @@
+.header__nav-menu-tab {
+  background-color: var(--secondary-02);
+  height: 38px;
+  display: flex;
+  align-items: center;
+}

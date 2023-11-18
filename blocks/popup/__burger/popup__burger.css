@@ -1,0 +1,15 @@
+.popup__burger {
+  background-color: var(--grayscale-01)!important;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+  flex-direction: column;
+  z-index: 2;
+  transition: none;
+  left: 50%;
+  top: 50%;
+  width: 101%;
+  height: 101%;
+  transform: translate(-50%, -50%);
+}

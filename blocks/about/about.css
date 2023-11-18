@@ -1,0 +1,34 @@
+@import url(__content/about__content.css);
+@import url(__content-section1/about__content-section1.css);
+@import url(__content-section1-img/about__content-section1-img.css);
+@import url(__content-section1-text/about__content-section1-text.css);
+@import url(__feature-list/about__feature-list.css);
+@import url(__feature-list-item/about__feature-list-item.css);
+@import url(__feature-list-item-description/about__feature-list-item-description.css);
+@import url(__feature-list-item-img/about__feature-list-item-img.css);
+@import url(__feature-list-item-img1/about__feature-list-item-img1.css);
+@import url(__feature-list-item-img2/about__feature-list-item-img2.css);
+@import url(__feature-list-item-img3/about__feature-list-item-img3.css);
+@import url(__feature-list-item-img4/about__feature-list-item-img4.css);
+@import url(__feature-list-item-title/about__feature-list-item-title.css);
+@import url(__feature-list-item-title1/about__feature-list-item-title1.css);
+@import url(__feature-list-item-title2/about__feature-list-item-title2.css);
+@import url(__feature-list-item-title3/about__feature-list-item-title3.css);
+@import url(__feature-list-item-title4/about__feature-list-item-title4.css);
+@import url(__title/about__title.css);
+@import url(__feature-list-item-description4/about__feature-list-item-description4.css);
+
+.about {
+  display: flex;
+  flex-direction: column;
+  padding-top: 55px;
+  margin: 0 16px;
+  color: var(--grayscale-07);
+}
+
+@media screen and (min-width: 1024px) {
+  .about {
+    margin-left: 60px;
+    margin-top: 172px;
+  }
+}

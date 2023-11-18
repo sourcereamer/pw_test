@@ -1,0 +1,17 @@
+.popup__contacts {
+  left: 50%;
+  top: 51.5%;
+  margin: 0;
+  max-width: 417px;
+  transform: translate(-50%, -52%);
+  flex-direction: column;
+  width: 338px;
+}
+
+@media screen and (min-width: 1024px) {
+  .popup__contacts {
+    width: 417px;
+    top: 49.5%;
+    transform: translate(-50%, -50%);
+  }
+}

@@ -1,0 +1,13 @@
+.hero__container-image-vector {
+  position: absolute;
+  right: -2px;
+  bottom: -16px;
+  z-index: 1;
+}
+
+@media screen and (min-width: 1024px) {
+  .hero__container-image-vector {
+    right: -2px;
+    bottom: -130px;
+  }
+}

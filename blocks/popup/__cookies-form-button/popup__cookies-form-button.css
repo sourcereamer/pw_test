@@ -1,0 +1,15 @@
+.popup__cookies-form-button {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+  @media screen and (min-width: 1024px) {
+    .popup__cookies-form-button {
+      display: flex;
+      flex-direction: row;
+      justify-content: start;
+      align-items: center;
+      margin-left: 100px;
+    }
+  }

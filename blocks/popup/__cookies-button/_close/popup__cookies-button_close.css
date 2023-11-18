@@ -1,0 +1,10 @@
+.popup__cookies-button_close {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  right: 13px;
+  top: 18px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}

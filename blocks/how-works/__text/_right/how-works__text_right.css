@@ -1,0 +1,15 @@
+.how-works__text_right {
+    animation: move-right 12s linear infinite;
+    white-space: nowrap;
+    overflow: hidden;
+    will-change: transform;
+}
+
+@keyframes move-right {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(205%);
+    }
+}

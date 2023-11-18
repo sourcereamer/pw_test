@@ -1,0 +1,14 @@
+.business__network-social-list-item_ig {
+
+}
+
+.business__network-social-list-item-image_ig {
+
+}
+
+@media screen and (min-width: 1024px) {
+    .business__network-social-list-item-image_ig {
+        width: 45px;
+        height: 45px;
+    }
+}

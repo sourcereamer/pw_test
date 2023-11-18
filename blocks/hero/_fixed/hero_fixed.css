@@ -1,0 +1,9 @@
+.hero_fixed {
+    margin-top: 119px;
+}
+
+@media screen and (min-width: 1024px) {
+    .hero_fixed {
+        margin-top: 153px;
+    }
+}

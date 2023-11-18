@@ -1,0 +1,16 @@
+.popup__contacts-button_inactive {
+  background-color: var(--grayscale-03);
+}
+
+.popup__contacts-button_inactive:hover {
+  cursor: default;
+  background-color: var(--grayscale-03);
+}
+
+.popup__contacts-button_inactive:focus {
+  border: none;
+}
+
+.popup__contacts-button_inactive:active {
+  background-color: var(--grayscale-03);
+}

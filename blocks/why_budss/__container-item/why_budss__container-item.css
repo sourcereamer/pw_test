@@ -1,0 +1,19 @@
+.why_budss__container-item {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(4, max-content);
+  margin: 0 16px 0;
+  color: #000;
+  background-color: var(--grayscale-06);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 1024px) {
+  .why_budss__container-item {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    border-radius: 30px;
+  }
+}

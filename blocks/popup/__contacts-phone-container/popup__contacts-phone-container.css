@@ -1,0 +1,12 @@
+.popup__contacts-phone-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.popup__contacts-phone-container img {
+  position: absolute;
+  width: 22px;
+  height: 16px;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}

@@ -1,0 +1,18 @@
+.about__content-section1-text {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.2;
+  width: 268px;
+  background-image: url(/image/about-background-image.png);
+  background-repeat: no-repeat;
+  background-size: 86%;
+  background-position: right bottom 1px;
+  padding-bottom: 5px;
+}
+
+@media screen and (min-width: 1024px) {
+  .about__content-section1-text {
+    font-size: 36px;
+    min-width: 410px;
+  }
+}

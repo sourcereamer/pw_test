@@ -1,0 +1,12 @@
+.footer__container-copyright-nav_active {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer__container-copyright-nav_active {
+    display: none;
+  }
+}

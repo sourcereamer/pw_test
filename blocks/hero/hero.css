@@ -1,0 +1,19 @@
+@import url(__container-text-button/hero__container-text-button.css);
+@import url(__container-image-1/hero__container-image-1.css);
+@import url(__container-text-description/hero__container-text-description.css);
+@import url(__container-text-headline/hero__container-text-headline.css);
+@import url(__container-image/hero__container-image.css);
+@import url(__container-text/hero__container-text.css);
+@import url(__container-image-vector/hero__container-image-vector.css);
+
+.hero {
+  margin: 65px 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .hero {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: row;
+  }
+}

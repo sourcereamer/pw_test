@@ -1,0 +1,16 @@
+.hero__container-text-headline {
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--grayscale-07);
+  margin: 0 0 20px;
+  line-height: 1.1;
+  letter-spacing: 0.1px;
+}
+
+@media screen and (min-width: 1024px) {
+  .hero__container-text-headline {
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 1.05;
+  }
+}

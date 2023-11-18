@@ -1,0 +1,16 @@
+.business__network-social-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px 0;
+  list-style: none;
+  gap: 17px;
+}
+
+@media screen and (min-width: 1024px) {
+  .business__network-social-list {
+    gap: 40px;
+    margin-right: 35px;
+    margin-top: 40px;
+  }
+}

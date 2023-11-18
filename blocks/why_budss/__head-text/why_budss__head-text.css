@@ -1,0 +1,9 @@
+.why_budss__head-text {
+
+}
+
+@media screen and (min-width: 1024px) {
+  .why_budss__head-text {
+    text-align: center;
+  }
+}

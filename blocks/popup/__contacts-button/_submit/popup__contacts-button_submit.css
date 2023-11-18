@@ -1,0 +1,34 @@
+.popup__contacts-button_submit {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  min-width: 182px;
+  min-height: 57px;
+  border-radius: 15px;
+  border: none;
+  color: var(--grayscale-07);
+  background-color: var(--primary-01);
+  font-size: 20px;
+  line-height: 1.25;
+  font-weight: 600;
+  outline: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .popup__contacts-button_submit {
+    margin-bottom: 40px;
+    width: max-content;
+  }
+}
+
+.popup__contacts-button_submit:hover {
+  cursor: pointer;
+  background: var(--grayscale-01);
+}
+
+.popup__contacts-button_submit:focus {
+  border: 4px solidvar(--primary-03);
+}
+
+.popup__contacts-button_submit:active {
+  background-color: var(--primary-00);
+}

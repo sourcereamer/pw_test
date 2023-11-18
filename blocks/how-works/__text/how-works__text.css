@@ -1,0 +1,16 @@
+.how-works__text {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.1;
+  white-space: nowrap;
+  padding: 0 10px;
+}
+
+@media screen and (min-width: 1024px) {
+  .how-works__text {
+    font-size: 128px;
+  }
+}
+
+
+

@@ -1,0 +1,14 @@
+.header__menu-container-text {
+  font-size: 29.6px;
+  font-weight: 600;
+  line-height: 28.11px;
+  color: var(--grayscale-07);
+  margin: 0 0 0 6px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1024px) {
+  .header__menu-container-text {
+    font-size: 37px;
+  }
+}

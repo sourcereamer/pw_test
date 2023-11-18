@@ -1,0 +1,18 @@
+.popup__success {
+  left: 50%;
+  top: 50%;
+  margin: 0;
+  max-width: 417px;
+  transform: translate(-50%, -50%);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .popup__success {
+    max-width: 417px;
+    transform: translate(-50%, -50%);
+  }
+}

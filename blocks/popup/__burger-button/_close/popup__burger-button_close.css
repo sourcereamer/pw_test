@@ -1,0 +1,12 @@
+.popup__burger-button_close {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 17px;
+  top: 19px;
+  border: none;
+  background-color: transparent;
+
+  background-repeat: no-repeat;
+  cursor: pointer;
+}

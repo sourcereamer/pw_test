@@ -1,0 +1,12 @@
+.header__nav-menu {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .header__nav-menu {
+    margin-left: 60px;
+  }
+}

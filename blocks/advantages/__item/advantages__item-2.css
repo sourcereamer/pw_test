@@ -1,0 +1,9 @@
+@media screen and (min-width: 1280px) {
+    .advantages__item-2.advantages__text {
+        width: 163px !important;
+    }
+
+    .advantages__item-2 {
+        margin-left: 62px !important;
+    }
+}

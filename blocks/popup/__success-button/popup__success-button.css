@@ -1,0 +1,32 @@
+.popup__success-button {
+  margin: 20px 40px 40px;
+  min-width: 255px;
+  min-height: 57px;
+  border-radius: 15px;
+  border: none;
+  color: var(--grayscale-07);
+  background-color: var(--primary-01);
+  font-size: 20px;
+  line-height: 1.25;
+  font-weight: 600;
+  outline: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .popup__success-button {
+    width: 337px;
+  }
+}
+
+.popup__success-button:hover {
+  cursor: pointer;
+  background: var(--grayscale-01);
+}
+
+.popup__success-button:focus {
+  border: 4px solidvar(--primary-03);
+}
+
+.popup__success-button:active {
+  background-color: var(--primary-00);
+}

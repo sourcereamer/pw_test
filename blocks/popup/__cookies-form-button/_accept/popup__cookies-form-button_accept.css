@@ -1,0 +1,37 @@
+.popup__cookies-form-button_accept {
+  font-size: 20px;
+  line-height: 1.3;
+  font-weight: 600;
+  color: var(--grayscale-07);
+  background-color: var(--primary-01);
+  min-height: 57px;
+  border: none;
+  border-radius: 16px;
+  margin-top: 40px;
+  outline: none;
+}
+
+@media screen and (min-width: 500px) {
+  .popup__cookies-form-button_accept {
+    width: 410px;
+    margin: 20px auto 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .popup__cookies-form-button_accept {
+    width: 124px;
+    max-height: 57px;
+    margin-top: 0;
+    margin-right: 20px;
+  }
+}
+
+.popup__cookies-form-button_accept:hover {
+  cursor: pointer;
+  background-color: var(--grayscale-00);
+}
+
+.popup__cookies-form-button_accept:focus {
+  border: 4px solid var(--primary-03);
+}

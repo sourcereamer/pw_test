@@ -1,0 +1,10 @@
+.hero__container-text {
+  margin: 0 16px 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .hero__container-text {
+    width: 100%;
+    margin-left: 110px;
+  }
+}

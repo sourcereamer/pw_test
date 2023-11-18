@@ -1,0 +1,15 @@
+.popup__contacts-container-input {
+  margin-top: 2px;
+  height: 39px;
+  border-radius: 15px;
+  padding-left: 14px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+  border: 1px solid #F1F1F1;
+  outline: none;
+}
+
+.popup__contacts-container-input:focus {
+  border: 1px solid #A7A7A7;
+}

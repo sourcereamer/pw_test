@@ -1,0 +1,28 @@
+@import url(__item/advantages__item.css);
+@import url(__item/advantages__item-2.css);
+@import url(__item/advantages__item-1.css);
+@import url(__item/advantages__item-3.css);
+@import url(__percent/advantages__percent.css);
+@import url(__text/advantages__text.css);
+
+.advantages {
+  background-color: var(--primary-01);
+  color: var(--grayscale-07);
+  padding: 39px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+}
+
+@media screen and (min-width: 1024px) {
+  .advantages {
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .advantages {
+    flex-direction: row;
+    margin-top: 2px;
+  }
+}

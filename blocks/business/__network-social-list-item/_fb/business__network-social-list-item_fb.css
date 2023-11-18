@@ -1,0 +1,15 @@
+.business__network-social-list-item_fb {
+
+}
+
+.business__network-social-list-item-image_fb {
+    margin-top: 20px;
+}
+
+@media screen and (min-width: 1024px) {
+    .business__network-social-list-item-image_fb {
+        margin-top: 28px;
+        width: 75px;
+        height: 75px;
+    }
+}

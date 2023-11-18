@@ -1,0 +1,13 @@
+.about__content-section1 {
+  margin-top: 28px;
+  max-width: 375px;
+  position: relative;
+}
+
+@media screen and (min-width: 1024px) {
+  .about__content-section1 {
+    margin-top: 82px;
+    max-width: 510px;
+    width: 100%;
+  }
+}

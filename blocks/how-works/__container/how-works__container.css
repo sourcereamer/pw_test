@@ -1,0 +1,7 @@
+.how-works__container {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  position: relative;
+  margin-top: 60px;
+}

@@ -1,0 +1,42 @@
+.root {
+  /* colors */
+  --grayscale-00: #000000;
+  --grayscale-01: #181818;
+  --grayscale-02: #444444;
+  --grayscale-03: #B9B9B9;
+  --grayscale-04: #CFCFCF;
+  --grayscale-05: #E4E4E4;
+  --grayscale-06: #F5F5F5;
+  --grayscale-07: #FFFFFF;
+  --primary-00: #7B31D4;
+  --primary-01: #954CED;
+  --primary-02: #A64CED;
+  --primary-03: #BA8BF3;
+  --primary-04: #954CED33;
+  --secondary-01: #2FDBBC;
+  --secondary-02: #FFAA4C;
+  --secondary-03: #C1DB2F;
+  --additional-01: #FF6C2D;
+  --additional-02: #EC1211;
+
+  font-family: 'Outfit', serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--grayscale-01);
+  overflow: -moz-scrollbars-none;
+  -ms-overflow-style: none;
+
+}
+
+.root::-webkit-scrollbar {
+  width: 0;
+}
+
+* {
+  font-family: 'Outfit', serif;
+}
+
+.html, .body {
+  overflow-x: hidden;
+}
+

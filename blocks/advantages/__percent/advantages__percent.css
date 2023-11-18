@@ -1,0 +1,12 @@
+.advantages__percent {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+@media screen and (min-width: 1024px) {
+    .advantages__percent {
+      font-size: 64px;
+      text-align: start;
+    }
+}

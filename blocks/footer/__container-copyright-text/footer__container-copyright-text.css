@@ -1,0 +1,14 @@
+.footer__container-copyright-text {
+  color: var(--grayscale-03);
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+
+@media screen and (min-width: 1024px) {
+  .footer__container-copyright-text {
+    margin-top: 18px;
+  }
+}

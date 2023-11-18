@@ -1,0 +1,7 @@
+.about__feature-list-item-img {
+  max-width: 100px;
+  max-height: 100px;
+  margin-left: 5px;
+  display: flex;
+  justify-content: center;
+}

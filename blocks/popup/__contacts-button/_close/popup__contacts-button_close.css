@@ -1,0 +1,16 @@
+.popup__contacts-button_close {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  right: 13px;
+  top: 10px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1024px) {
+  .popup__contacts-button_close {
+    top: 25px;
+  }
+}

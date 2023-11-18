@@ -1,0 +1,9 @@
+.why_budss__container-item-image-1 {
+
+}
+
+@media screen and (min-width: 1024px) {
+  .why_budss__container-item-image-1 {
+    margin-bottom: -4px;
+  }
+}

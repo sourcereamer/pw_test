@@ -1,0 +1,11 @@
+.why_budss__container-item-image-4 {
+
+}
+
+@media screen and (min-width: 1024px) {
+  .why_budss__container-item-image-4 {
+    position: absolute;
+    bottom: -2px;
+    right: -14px;
+  }
+}

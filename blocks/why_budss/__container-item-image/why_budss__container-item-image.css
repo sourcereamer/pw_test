@@ -1,0 +1,12 @@
+.why_budss__container-item-image {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+@media screen and (min-width: 1024px) {
+  .why_budss__container-item-image {
+    position: relative;
+  }
+}

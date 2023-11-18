@@ -1,0 +1,28 @@
+.why_budss__head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 78px 8px 16px 16px;
+  gap: 20px;
+}
+
+@media screen and (max-width: 390px) {
+  .why_budss__head {
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 373px) {
+  .why_budss__head {
+    overflow: hidden;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .why_budss__head {
+    max-width: 674px;
+    margin: 100px auto 42px;
+  }
+}

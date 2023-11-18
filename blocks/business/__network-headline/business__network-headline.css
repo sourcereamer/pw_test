@@ -1,0 +1,10 @@
+.business__network-headline {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 1024px) {
+  .business__network-headline {
+    margin-left: 70px;
+  }
+}

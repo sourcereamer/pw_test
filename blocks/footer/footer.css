@@ -1,0 +1,29 @@
+@import url(__nav/footer__nav.css);
+@import url(__container/footer__container.css);
+@import url(__container-copyright-nav-item-text-active/footer__container-copyright-nav-item-text-active.css);
+@import url(__container-copyright-nav-item/footer__container-copyright-nav-item.css);
+@import url(__container-copyright-nav/footer__container-copyright-nav.css);
+@import url(__button/footer__button.css);
+@import url(__container-button/footer__container-button.css);
+@import url(__apps-list-item/footer__apps-list-item.css);
+@import url(__container-copyright-nav-item-text/footer__container-copyright-nav-item-text.css);
+@import url(__apps-list/footer__apps-list.css);
+@import url(__container-logo/footer__container-logo.css);
+@import url(__container-logo-img/footer__container-logo-img.css);
+@import url(__container-logo-text.css/footer__container-logo-text.css);
+@import url(__nav/footer__nav.css);
+@import url(__container-copyright-text/footer__container-copyright-text.css);
+@import url(__container-copyright/footer__container-copyright.css);
+@import url(__container-copyright-nav/_active/footer__container-copyright-nav_active.css);
+
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 1024px) {
+  .footer {
+    flex-direction: column;
+    margin: 40px 60px 20px;
+  }
+}

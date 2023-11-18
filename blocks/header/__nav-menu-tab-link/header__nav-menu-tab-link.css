@@ -1,0 +1,8 @@
+.header__nav-menu-tab-link {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--grayscale-00);
+    margin: 0 40px 0;
+}
+

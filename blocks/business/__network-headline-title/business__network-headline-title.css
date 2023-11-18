@@ -1,0 +1,12 @@
+.business__network-headline-title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.05;
+}
+
+@media screen and (min-width: 1024px) {
+  .business__network-headline-title {
+    font-size: 96px;
+    width: 820px;
+  }
+}

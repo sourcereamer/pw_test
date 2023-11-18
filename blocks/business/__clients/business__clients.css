@@ -1,0 +1,18 @@
+.business__clients {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 70px 20px 87px;
+  row-gap: 26px;
+  column-gap: 40px;
+}
+
+@media screen and (min-width: 1280px) {
+  .business__clients {
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 96px;
+  }
+}

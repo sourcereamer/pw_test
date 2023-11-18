@@ -1,0 +1,8 @@
+.how-works__text_transparent {
+  color: var(--grayscale-01);
+  box-shadow: 1px var(--grayscale-02);
+  text-shadow: 1px 0 0 var(--grayscale-02),
+    -1px 0 0 var(--grayscale-02),
+    0 1px 0 var(--grayscale-02),
+    0 -1px 0 var(--grayscale-02);
+}

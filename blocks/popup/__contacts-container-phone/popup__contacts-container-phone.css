@@ -1,0 +1,5 @@
+.popup__contacts-container-phone {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+}

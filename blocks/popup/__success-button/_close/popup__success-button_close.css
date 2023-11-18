@@ -1,0 +1,10 @@
+.popup__success-button_close {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  right: 10px;
+  top: 18px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}

@@ -1,0 +1,29 @@
+@import url(__text/how-works__text.css);
+@import url(__container/how-works__container.css);
+@import url(__image/how-works__image.css);
+@import url(__text/_blue/how-works__text_blue.css);
+@import url(__text/_purple/how-works__text_purple.css);
+@import url(__text/_orange/how-works__text_orange.css);
+@import url(__text/_left/how-works__text_left.css);
+@import url(__text/_right/how-works__text_right.css);
+@import url(__text/_transparent/how-works__text_transparent.css);
+
+.how-works {
+  position: relative;
+  margin-top: 78px;
+  min-height: 540px;
+  align-items: center;
+
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 1024px) {
+  .how-works {
+    margin-top: 120px;
+    gap: 2px;
+    position: relative;
+    padding-bottom: 142px;
+  }
+}

@@ -1,0 +1,33 @@
+.business__headline-button {
+  margin: 40px 0;
+  min-width: 303px;
+  min-height: 57px;
+  border-radius: 15px;
+  border: none;
+  color: var(--grayscale-07);
+  font-size: 20px;
+  line-height: 1.25;
+  font-weight: 600;
+  background: linear-gradient(45deg, transparent 50%, var(--primary-01) 50%);
+  background-color: var(--primary-01);
+  background-size: 300% 300%;
+  background-position: right bottom;
+  transition: background-position 0.5s;
+  outline: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .business__headline-button {
+    min-width: 182px;
+    margin-bottom: 60px;
+  }
+}
+
+
+.business__headline-button:hover {
+  transform: scale(1.05);
+  background-position: left top;
+  color: #000;
+  cursor: pointer;
+  background-color: yellow;
+}

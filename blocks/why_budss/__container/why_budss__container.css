@@ -1,0 +1,140 @@
+.why_budss__container {
+  display: flex;
+  flex-direction: column;
+  color: var(--grayscale-07);
+  gap: 21px;
+}
+
+/* Element 3 */
+.why_budss__container .why_budss__container-item:nth-child(3) .why_budss__container-item-image:nth-child(2) {
+  margin-top: 32px;
+  justify-content: end;
+}
+
+/* Element 4 */
+.why_budss__container .why_budss__container-item:nth-child(4) .why_budss__container-item-image:nth-child(2) {
+  justify-content: end;
+  margin-right: 55px;
+  margin-top: 5px;
+}
+
+.why_budss__container .why_budss__container-item:nth-child(4) .why_budss__container-item-description:nth-child(1) {
+  margin-right: 34px;
+}
+
+.why_budss__container .why_budss__container-item:nth-child(4) .why_budss__container-item-description:nth-child(1) .why_budss__container-item-text {
+  width: 279px;
+}
+
+@media screen and (min-width: 1024px) {
+  .why_budss__container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 70px 21px;
+    gap: 15px;
+  }
+
+  /* Element 1 */
+  .why_budss__container .why_budss__container-item:nth-child(1) {
+    max-width: 733px;
+    min-height: 364px;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .why_budss__container .why_budss__container-item:nth-child(1) .why_budss__container-item-image {
+    margin-top: 0px;
+  }
+
+  .why_budss__container .why_budss__container-item:nth-child(1) .why_budss__container-item-description:nth-child(1) {
+    margin-top: 42px;
+    margin-left: 8px;
+  }
+
+  .why_budss__container .why_budss__container-item:nth-child(1) .why_budss__container-item-description:nth-child(1) .why_budss__container-item-text {
+    width: 350px;
+  }
+
+  /* Element 2 */
+  .why_budss__container .why_budss__container-item:nth-child(2) {
+    max-width: 547px;
+    min-height: 362px;
+    flex-direction: column;
+  }
+
+  .why_budss__container .why_budss__container-item:nth-child(2) .why_budss__container-item-description:nth-child(1) {
+    margin-top: 46px;
+    margin-left: 41px;
+  }
+
+  .why_budss__container .why_budss__container-item:nth-child(2) .why_budss__container-item-description:nth-child(1) .why_budss__container-item-text {
+    width: 400px;
+  }
+
+  /* Element 3 */
+  .why_budss__container .why_budss__container-item:nth-child(3) {
+    max-width: 547px;
+    min-height: 362px;
+  }
+
+  .why_budss__container .why_budss__container-item:nth-child(3) .why_budss__container-item-description:nth-child(1) {
+    margin-top: 45px;
+    margin-left: 36px;
+  }
+
+  .why_budss__container .why_budss__container-item:nth-child(3) .why_budss__container-item-description:nth-child(1) .why_budss__container-item-text {
+    width: 320px;
+  }
+
+  .why_budss__container .why_budss__container-item:nth-child(3) .why_budss__container-item-description:nth-child(1) .why_budss__container-item-title {
+    width: 450px;
+  }
+
+  .why_budss__container .why_budss__container-item:nth-child(3) .why_budss__container-item-description {
+    width: 550px;
+  }
+
+  /* Element 4 */
+  .why_budss__container .why_budss__container-item:nth-child(4) {
+    max-width: 733px;
+    min-height: 362px;
+  }
+
+  .why_budss__container .why_budss__container-item:nth-child(4) .why_budss__container-item-description:nth-child(1) {
+    margin-top: 45px;
+    margin-left: 42px;
+  }
+
+  .why_budss__container .why_budss__container-item:nth-child(4) .why_budss__container-item-description:nth-child(1) .why_budss__container-item-text {
+    margin-right: 0;
+    width: 402px;
+  }
+
+  .why_budss__container .why_budss__container-item:nth-child(4) .why_budss__container-item-description:nth-child(1) .why_budss__container-item-title {
+    width: 450px;
+  }
+
+  .why_budss__container .why_budss__container-item:nth-child(4) .why_budss__container-item-description {
+    width: 750px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  /* Element 1 */
+  .why_budss__container .why_budss__container-item:nth-child(1) .why_budss__container-item-image:nth-child(2) {
+    margin-top: 4px;
+    margin-bottom: -4px;
+  }
+
+  /* Element 3 */
+  .why_budss__container .why_budss__container-item:nth-child(3) .why_budss__container-item-image:nth-child(2) {
+    margin-bottom: -3px;
+  }
+
+  /* Element 4 */
+  .why_budss__container .why_budss__container-item:nth-child(4) .why_budss__container-item-image:nth-child(2) {
+    margin-bottom: -4px;
+  }
+}

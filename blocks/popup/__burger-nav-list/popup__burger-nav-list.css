@@ -1,0 +1,6 @@
+.popup__burger-nav-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}

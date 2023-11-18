@@ -1,0 +1,28 @@
+@import url(__clients/business__clients.css);
+@import url(__clients-item/business__clients-item.css);
+@import url(__headline/business__headline.css);
+@import url(__headline-button/business__headline-button.css);
+@import url(__headline-title/business__headline-title.css);
+@import url(__network/business__network.css);
+@import url(__network-headline/business__network-headline.css);
+@import url(__network-headline-text/business__network-headline-text.css);
+@import url(__network-headline-title/business__network-headline-title.css);
+@import url(__network-social-list/business__network-social-list.css);
+@import url(__network-social-list-image/business__network-social-list-image.css);
+@import url(__network-social-list-item/business__network-social-list-item.css);
+@import url(__network-social-list-item-image/business__network-social-list-item-image.css);
+@import url(__clients-item/_first/business__clients-item_first.css);
+@import url(__clients-item/_last/business__clients-item_last.css);
+@import url(__clients-item/_ss/business__clients-item_ss.css);
+@import url(__network-social-list-item/_fb/business__network-social-list-item_fb.css);
+@import url(__network-social-list-item/_tr/business__network-social-list-item_tr.css);
+@import url(__network-social-list-item/_ig/business__network-social-list-item_ig.css);
+@import url(__network-social-list-item/_tt/business__network-social-list-item_tt.css);
+
+.business {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--grayscale-07);
+  justify-content: center;
+  align-items: center;
+}

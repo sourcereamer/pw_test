@@ -1,0 +1,12 @@
+.about__feature-list-item-title {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 1024px) {
+  .about__feature-list-item-title {
+    font-size: 48px;
+  }
+}

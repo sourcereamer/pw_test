@@ -1,0 +1,35 @@
+.popup__burger-button {
+  margin: 200px 16px 0;
+  min-width: 182px;
+  max-width: 578px;
+  min-height: 57px;
+  border-radius: 15px;
+  border: none;
+  color: var(--grayscale-07);
+  background-color: var(--primary-01);
+  font-size: 20px;
+  line-height: 1.25;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (min-width: 700px) {
+  .popup__burger-button {
+    min-width: 578px;
+  }
+}
+
+.popup__burger-button:hover {
+  cursor: pointer;
+  background: var(--grayscale-01);
+  border: 2px solid var(--primary-01);
+}
+
+.popup__burger-button:focus {
+  border: 4px solidvar(--primary-03);
+}
+
+.popup__burger-button:active {
+  background-color: var(--primary-00);
+}

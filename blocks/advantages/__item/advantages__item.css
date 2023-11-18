@@ -1,0 +1,15 @@
+.advantages__item {
+  margin: 0 13px 0 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+@media screen and (min-width: 1280px) {
+  .advantages__item {
+    flex-direction: column;
+    align-items: start;
+    margin: 0 0 -2px;
+  }
+}

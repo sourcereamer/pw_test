@@ -1,0 +1,18 @@
+.business__network-social-list-item_tt {
+    margin-top: 65px;
+}
+
+.business__network-social-list-item-image_tt {
+
+}
+
+@media screen and (min-width: 1024px) {
+    .business__network-social-list-item_tt {
+        margin-top: 93px;
+    }
+
+    .business__network-social-list-item-image_tt {
+        width: 45px;
+        height: 45px;
+    }
+}

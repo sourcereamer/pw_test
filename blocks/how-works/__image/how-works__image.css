@@ -1,0 +1,20 @@
+.how-works__image {
+  max-width: 228px;
+  position: absolute;
+  top: 230px;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+@media screen and (min-width: 1024px) {
+  .how-works__image {
+    max-width: 308px;
+    top: 335px;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+}

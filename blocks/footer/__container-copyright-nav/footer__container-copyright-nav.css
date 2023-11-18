@@ -1,0 +1,19 @@
+.footer__container-copyright-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-left: 16px;
+  list-style: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .footer__container-copyright-nav {
+    flex-direction: row;
+    margin-top: 15px;
+    gap: 41px;
+  }
+
+  .footer__container-copyright-nav-item-3, .footer__container-copyright-nav-item-4, .footer__container-copyright-nav-item-5 {
+    display: none;
+  }
+}

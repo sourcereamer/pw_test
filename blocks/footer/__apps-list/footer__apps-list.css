@@ -1,0 +1,16 @@
+.footer__apps-list {
+  margin: 25px 16px ;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+
+@media screen and (min-width: 1024px) {
+  .footer__apps-list {
+    flex-direction: row;
+    gap: 19px;
+    margin: 0;
+    margin-left: 2.8vw;
+  }
+}
