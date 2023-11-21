@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/slider.css">
+    <title>budss</title>
+</head>
+<body>
+<div id="slider">
+    <ul class="slides">
+        <li class="slide slide1"></li>
+        <li class="slide slide2"></li>
+        <li class="slide slide3"></li>
+        <li class="slide slide4"></li>
+        <li class="slide slide5"></li>
+        <li class="slide slide6"></li>
+        <li class="slide slide7"></li>
+        <li class="slide slide8"></li>
+        <li class="slide slide9"></li>
+        <li class="slide slide10"></li>
+    </ul>
+</div>
+<a class="prev" onclick='plusSlides(-1)'>&#10094;</a>
+<a class="next" onclick='plusSlides(1)'>&#10095;</a>
+
+<div style='text-align: center;'>
+    <span class="dot" onclick='currentSlide(1)'></span>
+    <span class="dot" onclick='currentSlide(2)'></span>
+    <span class="dot" onclick='currentSlide(3)'></span>
+    <span class="dot" onclick='currentSlide(4)'></span>
+    <span class="dot" onclick='currentSlide(5)'></span>
+    <span class="dot" onclick='currentSlide(6)'></span>
+    <span class="dot" onclick='currentSlide(7)'></span>
+    <span class="dot" onclick='currentSlide(8)'></span>
+    <span class="dot" onclick='currentSlide(9)'></span>
+    <span class="dot" onclick='currentSlide(10)'></span>
+</div>
+<div class="slide__number">
+    <span class="minus">-</span>
+    <label>
+        <input type="text" value="10"/>
+    </label>
+    <span class="plus">+</span>
+</div>
+<script src="scripts/slider.js"></script>
+</body>
+</html>
