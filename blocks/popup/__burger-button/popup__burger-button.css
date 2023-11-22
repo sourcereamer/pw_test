@@ -27,7 +27,7 @@
 }
 
 .popup__burger-button:focus {
-  border: 4px solidvar(--primary-03);
+  border: 4px var(--primary-03);
 }
 
 .popup__burger-button:active {
